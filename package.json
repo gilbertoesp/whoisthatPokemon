@@ -1,0 +1,20 @@
+{
+  "name": "whoisthatpokemon",
+  "version": "1.0.0",
+  "description": "WebApp simple donde puedes jugar el clásico ¿Cuál es ese pokemon?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilbertoesp/whoisthatPokemon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilbertoesp/whoisthatPokemon/issues"
+  },
+  "homepage": "https://github.com/gilbertoesp/whoisthatPokemon#readme"
+}
