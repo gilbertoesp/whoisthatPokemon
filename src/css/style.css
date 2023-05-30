@@ -1,0 +1,42 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+main{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#main__background{
+    background: url("https://wallpaperaccess.com/full/3551101.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 8%;
+}
+
+.hidden {
+    filter: brightness(0);
+    max-width: 80%;
+}
+
+#main__choices_holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 12px;
+    width: 80%;
+    margin: 0 auto;
+}
+.choice{
+    height:35px;
+    width:auto;
+    border-radius: 30px;
+    background-color: turquoise;
+    border:none;
+    color:white;
+    text-shadow: 5px;
+    font-size: 2.6rem;
+    gap: 15px;
+}
