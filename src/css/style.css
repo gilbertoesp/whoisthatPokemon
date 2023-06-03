@@ -3,6 +3,19 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: #cc5350;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
 main{
     width: 90%;
     text-align: center;
@@ -17,8 +30,17 @@ main{
     border-radius: 8%;
 }
 
+#main__img_holder{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
 .hidden {
     filter: brightness(0);
+    max-width: 80%;
+}
+
+.revealed{
     max-width: 80%;
 }
 
@@ -26,14 +48,28 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 12px;
-    width: 80%;
     margin: 0 auto;
 }
+
 .choice{
     height:35px;
     width:auto;
     border-radius: 30px;
     background-color: turquoise;
+    border:none;
+    color:white;
+    text-shadow: 5px;
+    font-size: 2.6rem;
+    gap: 15px;
+}
+
+#main__boton_jugar{
+    margin-top: 80px;
+    padding: 12px;
+    height: 50px;
+    width:auto;
+    border-radius: 30px;
+    background-color: #cc5350;
     border:none;
     color:white;
     text-shadow: 5px;

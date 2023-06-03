@@ -51,9 +51,12 @@ function getArtwork(url){
 function handleAnswer(target){
     choices__holder.addEventListener('click', e => {
         if(e.target.dataset.name === target.name){
-            alert("Acertaste!")
+            const src_artwork = getArtwork(target.url)
+            img__holder.innerHTML = `
+            <img class="revealed" src=${src_artwork}>
+            `
         }else{
-            alert("Fallaste!")
+            alert("FALLASTE! \n Inténtalo de nuevo.")
         }
     })
 }
@@ -68,7 +71,7 @@ function handleAnswer(target){
         showChoices(juego)
         showHiddenPokemon(target)
         handleAnswer(target)
-        
+        boton__jugar.addEventListener('click', () => window.location.reload())
     }catch(error){
         console.log(error)
     }
